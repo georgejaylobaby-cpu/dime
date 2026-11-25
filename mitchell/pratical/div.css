@@ -1,0 +1,1025 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+
+}
+
+
+
+
+nav{
+
+
+    width: 100%;
+    height: 6rem;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.187);
+
+position:fixed;
+z-index: 10000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_nav{
+    width: 90%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: auto;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.name h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.tag ul{
+    display: none;
+
+
+}
+
+
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.person{display: none;}
+.blog{display: none;}
+
+.sign_up{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sign_up a{
+    color: #fff;
+}
+
+
+
+.background{
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.mother_background{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    display: grid;
+    row-gap: 1rem;
+}
+
+
+
+.text_bacground{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    padding-top: 8rem;
+}
+
+
+
+
+
+
+.text_bacground h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.text_bacground button{
+    background-color: #000;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+
+.text_bacground button a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+.box_background{
+    width:100%;
+    background-color:transparent;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0rem;
+}
+
+
+.box_larger{
+    width: 48%;
+      background-color:#cccccc41;
+      height: 23rem;
+      border-radius: 30px;
+}
+
+.minor_box{
+     width: 45%;
+      background-color:transparent;
+      height: 23rem;
+      display: grid;
+      row-gap: 1rem;
+}
+
+.box1{
+    width:100%;
+    height: 100%;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+
+.box2{
+   width:100%;
+    height: 95%;
+    border-radius: 30px;
+    background-color: #cccccc41; 
+}
+
+
+
+
+
+/* -----------------Css Background ends here-------------------------------- */
+
+
+.hero_section{
+    width: 100%;
+    height: auto;
+
+    display: flex;  
+    justify-content: center;
+    margin-top: 3rem;
+
+
+
+}
+
+.hero_mother{
+    width: 90%;
+    height: auto;
+
+    
+}
+
+
+
+
+.top_des h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+.tabs{
+    width: 100%;
+    margin-top: 1rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    row-gap: 1rem;
+    
+}
+
+
+.div_tabs{
+    width: 90%;
+    height: 3rem;
+    background-color:#fff;
+    border: solid #00000065 1.5px;
+    border-radius: 30px;
+
+     font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+.hero_box{
+    width: 100%;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mother_box{
+    width: 100%;
+   height: auto;
+
+   display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  
+}
+
+
+.hero_box_slag{
+    width: 93%;
+    height: 18rem;
+    background-color: #cccccc41;
+    border-radius: 20px;
+}
+
+
+
+
+/* ---------------Phone Part-------------------------- */
+
+
+
+.latest{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    margin-top:3rem;
+}
+
+
+.mother_latest{
+    width: 90%;
+    height: auto;
+    background-color:transparent;
+}
+
+.div_recomm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.div_recomm h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.div_recomm button{
+    width: 8rem;
+    height: 3rem;
+    border: solid 1.5px #000;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12.5px;
+}
+   
+
+
+
+
+
+
+.div_latest{
+    width: 100%;
+    display: grid;
+
+    
+    row-gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.lates_comp{
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+}
+
+
+
+.image_bloc{
+    width: 100%;
+    height: 17rem;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+.text_bloc article{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 1rem;
+}
+
+.text_bloc p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+
+
+.latest_recent{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: grid;
+    row-gap: 1rem;
+}
+
+
+
+
+
+
+
+
+.div_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+   
+}
+
+.box_crete{
+    width: 44% ;
+    background-color: #cccccc41;
+    height: 8rem;
+    border-radius: 30px;
+}
+
+.box_text{
+    width: 50%;
+}
+
+
+.box_text h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.box_text p{
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* ------------------Phone media----------------------------------------- */
+.trekker_text{
+display: flex;
+justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.mothers_text{
+    width: 90%;
+}
+
+.trekker_text h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.trekker_highlight{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_trekker{
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+    display: grid;
+    justify-content: space-between;
+}
+
+
+.text_trekk{
+    width: 100%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    
+}
+
+
+
+
+
+
+.text_profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prrofile_txt h3{
+font-weight: 500;
+}
+
+
+
+.image_trekker{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: #cccccc41;
+}
+
+.profile_artcle article{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.vido_trekk{
+    width: 100%;
+    align-self: flex-start;
+    height: 20rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bigger_trekker{
+width: 54%;
+height: 18rem;
+background-color: #cccccc41;
+border-radius: 12px;
+}
+
+
+.smaller_trekker{
+    width: 43%;
+    height: 12rem;
+    background-color: #cccccc41;
+    border-radius: 12px;
+}
+
+@media (min-width: 1280px) {
+
+nav{
+
+
+    width: 100%;
+    height: 6rem;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.187);
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_nav{
+    width: 90%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: auto;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.name h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.tag ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.tag ul a{
+    color: #000;
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.person{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #cccccc66;
+    border-radius: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blog{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #cccccc66;
+    border-radius: 100%;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sign_up a{
+    color: #fff;
+}
+
+
+.menu{
+    display: none;
+}
+
+
+
+/* ------------------Background Starts here-------------------------- */
+
+.background{
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mother_background{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.text_bacground{
+    width: 40%;
+    background-color: transparent;
+    height: auto;
+    padding-top: 11rem;
+}
+
+.text_bacground h1{
+    font-size: 46px;
+    font-weight: 500;
+}
+
+
+.text_bacground button{
+    background-color: #000;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+
+.text_bacground button a{
+    color: #fff;
+}
+
+
+
+.box_background{
+    width: 55%;
+    background-color:transparent;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 11rem;
+}
+
+
+.box_larger{
+    width: 48%;
+      background-color:#cccccc41;
+      height: 23rem;
+      border-radius: 30px;
+}
+
+.minor_box{
+     width: 45%;
+      background-color:transparent;
+      height: 28rem;
+      display: grid;
+}
+
+.box1{
+    width:100%;
+    height: 15rem;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+
+.box2{
+   width:100%;
+    height: 11rem;
+    border-radius: 30px;
+    background-color: #cccccc41; 
+}
+
+
+/* -----------------Css Background ends here-------------------------------- */
+
+
+
+/* ----------------------Laptop css-------------- */
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    justify-content: center;
+    margin-top: 3rem;}
+
+.hero_mother{
+    width: 90%;
+    height: auto;}
+
+
+
+.top_des h2{
+    font-size: 30px;
+    font-weight: 500;}
+
+
+.tabs{
+    width: 100%;
+    margin-top: 1.5rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;}
+
+
+.div_tabs{
+    width: 12%;
+    height: 3rem;
+    background-color:#fff;
+    border: solid #00000065 1.5px;
+    border-radius: 30px;
+
+
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.hero_box{
+    width: 100%;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mother_box{
+    width: 100%;
+   height: auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.hero_box_slag{
+    width: 24%;
+    height: 20rem;
+    background-color: #cccccc41;
+    border-radius: 20px;
+}
+
+
+
+
+/* ------------------Laptops ------------------------- */
+
+.latest{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    margin-top:3rem;
+}
+
+
+.mother_latest{
+    width: 90%;
+    height: auto;
+    background-color:transparent;
+}
+
+.div_recomm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.div_recomm h2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.div_recomm button{
+    width: 12rem;
+    height: 3rem;
+    border: solid 1.5px #000;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: unset;
+}
+
+
+.div_latest{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+.lates_comp{
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+     align-self: flex-start;
+}
+
+.image_bloc{
+    width: 100%;
+    height: 17rem;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+.text_bloc article{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 1rem;
+}
+
+.text_bloc p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+
+.latest_recent{
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+  
+display: grid;
+row-gap: 1rem;
+    align-self: flex-start;
+}
+
+.div_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+   
+}
+
+.box_crete{
+    width: 44% ;
+    background-color: #cccccc41;
+    height: 10rem;
+    border-radius: 30px;
+}
+
+
+.box_text h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+.box_text p{
+    margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+.trekker_text{
+display: flex;
+justify-content: center;
+    width: 100%;
+}
+
+.mothers_text{
+    width: 90%;
+}
+
+.trekker_text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.trekker_highlight{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_trekker{
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text_trekk{
+    width: 47%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    
+}
+
+
+
+
+.text_profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prrofile_txt h3{
+font-weight: 500;
+}
+
+
+
+.image_trekker{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: #cccccc41;
+}
+
+.profile_artcle article{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.vido_trekk{
+    width: 50%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bigger_trekker{
+width: 54%;
+height: 18rem;
+background-color: #cccccc41;
+border-radius: 12px;
+}
+
+
+.smaller_trekker{
+    width: 43%;
+    height: 12rem;
+    background-color: #cccccc41;
+    border-radius: 12px;
+}
+   
+}

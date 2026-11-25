@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+}
+
+
+ nav {
+    width: 100%;
+    height: 9rem;
+    background-color: #ccc;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mother_nav {
+    width: 90%;
+    height: 9rem;
+    background-color: transparent;
+
+    box-shadow: 0 8px 32px rgba(63, 20, 20, 0.15);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+.tag {
+  display: block;
+}
+
+.tag ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.tag li a{
+    color: #000;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.profile_img{
+    width:3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+.profile_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+}
+
+.mother_background{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.children{
+    width: 90%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    place-items: center;
+    row-gap: 2rem;
+}
+.child{
+    width: 90%;
+    height: 25rem;
+    background-color: #ccc;
+}
+
+@media (min-width: 1280px) {
+  
+.children{
+    width: 90%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    place-items: center;
+    row-gap: 2rem;
+}
+
+}

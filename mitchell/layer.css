@@ -1,0 +1,49 @@
+.mother {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.child {
+  width: 25%;
+  height: 15rem;
+  background-color: #ccc;
+  position: static;
+  border-radius: 30px;
+  top: 2rem;
+  align-self: flex-start;
+}
+.social {
+  width: 70%;
+  height: 60rem;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  row-gap: 2rem;
+}
+
+.kid {
+  width: 100%;
+  height: 15rem;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kis img {
+  width: 80%;
+  height: 80%;
+}
+.html img {
+  width: 100%;
+  height: 100%;
+}
+
+.html {
+  width: 90%;
+  height: 20rem;
+  border-radius: 30px;
+  background-color: #ccc;
+}
