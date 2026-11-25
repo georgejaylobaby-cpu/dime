@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="jumia.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+
+    
+</head>
+<body>
+
+
+     <nav>
+          <div class="mother_nav">
+            <div class="name">
+            <a href="" style="color: orange;">sell on jumia</a>
+            </div>
+            <div class="tag">
+                <ul>
+                    <li>
+                        <a href="" style="color: #000;"><h5>JUMIA</h5></a>
+
+                    </li>
+
+                    <li>
+                        <a href=""></a>
+
+                    </li>
+                    
+                    <li>
+                        <a href=""></a>
+
+                    </li>
+                </ul>
+            </div>
+    
+     </nav>
+
+      <div class="background">
+        <div class="name">
+            <h1>JUMIA</h1>
+            
+        </div>
+        <div class="input">
+            <input type="text" placeholder="search">
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
